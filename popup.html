@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Settings</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+      width: 200px;
+    }
+    h3 {
+      color: #0078d4;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #0078d4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #005a9e;
+    }
+    #toggle-active {
+      background-color: #f4f4f4;
+      color: #0078d4;
+      border: 1px solid #0078d4;
+    }
+  </style>
+</head>
+<body>
+  <h3>Theme Settings</h3>
+  <button id="toggle-active">Activate Theme</button>
+  <button id="open-options">Customize Elements</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

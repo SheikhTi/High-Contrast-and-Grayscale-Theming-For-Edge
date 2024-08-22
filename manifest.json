@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Custom High Contrast and Grayscale",
+    "version": "1.0",
+    "description": "Apply high contrast and grayscale effects with customizable element inclusion/exclusion.",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon-inactive.png",
+        "48": "icon-inactive.png",
+        "128": "icon-inactive.png"
+      }
+    },
+    "icons": {
+      "16": "icon-inactive.png",
+      "48": "icon-inactive.png",
+      "128": "icon-inactive.png"
+    },
+    "options_page": "options.html",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["contentScript.js"],
+        "run_at": "document_start"
+      }
+    ]
+  }
+  
