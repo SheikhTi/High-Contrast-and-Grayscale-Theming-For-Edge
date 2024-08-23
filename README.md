@@ -1,6 +1,7 @@
 Steps to Install the extension from the .crx File:
 
 **#1)  Normal Method:**
+
                i)--Enable Developer Mode:
 Open Microsoft Edge.
 Navigate to "edge://extensions/" using the search bar.
@@ -22,6 +23,7 @@ Enable "Developer mode" by toggling the switch in the bottom-left corner of the 
 
 
 **#2)  Alternative Method (Manual Installation):**
+
                i)--Extract the .crx File:
                          --(You can extract the contents of the .crx file using a tool like a ZIP extractor or a dedicated extension extractor tool.
                          Rename the .crx file to .zip, then extract it as you would with any ZIP file.)
