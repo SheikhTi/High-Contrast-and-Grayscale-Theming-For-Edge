@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Custom High Contrast and Grayscale",
-    "version": "1.0",
+    "version": "0.1.0",
     "description": "Apply high contrast and grayscale effects with customizable element inclusion/exclusion.",
     "permissions": [
       "activeTab",
